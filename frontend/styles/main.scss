@@ -1,0 +1,430 @@
+body {
+  background-color: #fff;
+}
+
+.navbar {
+  padding-left: 9%;
+  padding-right: 8%;
+  background-color: #070707;
+  color: #fff;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+
+    .nav-link {
+      color: #000 !important;
+    }
+
+    .navbar-brand {
+      color: #000 !important;
+    }
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .navbar-light {
+    color: #fff;
+  }
+
+  .navbar-nav {
+    font-size: 14px;
+    font-weight: 600;
+
+    .nav-link {
+      margin-left: 10px;
+      color: #fff;
+
+      &:hover {
+        color: #a3a3a3 !important;
+        border-radius: 15px;
+      }
+    }
+  }
+}
+
+.jumbotron-fluid {
+  padding: 30px;
+  background-color: #070707;
+  color: #000;
+  height: 635px;
+
+  h1 {
+    margin-top: 180px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  p {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  .btn-header {
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px #fff solid;
+
+    &:hover {
+      border: 1px #fff solid;
+      background-color: #fff;
+      color: #000;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+.section-content-profile {
+  margin-top: -50px;
+  padding: 70px;
+  margin-bottom: 50px;
+
+  .box-shadow-full {
+    border-radius: 15px;
+  }
+
+  .about-img {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .img-fluid {
+    height: 380px;
+    width: 320px;
+    box-shadow: 0px 1px 2px 1px;
+  }
+
+  h1 {
+    font-size: 30px;
+    padding-top: 90px;
+  }
+
+  p {
+    padding: 25px;
+    font-size: 17px;
+  }
+
+  .btn-about {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border: #000 solid;
+
+    &:hover {
+      border: #000 solid;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.section-skill {
+  padding: 70px;
+  background-color: #070707;
+  text-transform: uppercase;
+
+  h1 {
+    margin-bottom: 40px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: #aaa;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: #aaa;
+    width: 100%;
+  }
+
+  .icon-skill {
+    color: #aaa;
+    font-size: 20px;
+
+    span {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.section-portfolio {
+  margin-bottom: 25px;
+
+  h1 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #070707;
+    text-transform: uppercase;
+  }
+
+  .card {
+    padding-top: 30px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    box-shadow: 1px 1px 4px;
+  }
+
+  .card-body {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .btn-portfolio {
+    padding: 10px;
+    display: inline-block;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border: #000 solid;
+
+    &:hover {
+      border: #000 solid;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.section-contact {
+  color: #000;
+
+  h1 {
+    padding-top: 90px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  .text-info-contact {
+    font-size: 16px;
+    color: #000;
+    font-weight: 250;
+  }
+
+  .icon-social-media {
+    i {
+      font-size: 30px;
+
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
+
+  iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 320px;
+  }
+}
+
+.card-footer {
+  margin-top: 25px;
+}
+
+// Mobile Medium Version
+@media (max-width: 991.98px) {
+  .navbar {
+    &:hover {
+      background-color: #000 !important;
+      color: #fff !important;
+
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .navbar-brand {
+        color: #fff !important;
+      }
+    }
+  }
+
+  .jumbotron-fluid {
+    height: 520px;
+
+    h1 {
+      margin-top: 135px;
+      font-size: 40px;
+    }
+  }
+
+  .section-content-profile {
+    padding: 50px;
+
+    .img-fluid {
+      margin-top: 25px;
+      height: 325px;
+      width: 250px;
+    }
+
+    h1 {
+      padding-top: 0;
+    }
+
+    p {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+
+  .section-skill {
+    h1 {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .box-skill {
+      margin-top: 20px;
+    }
+  }
+
+  .section-portfolio {
+    padding: 20px;
+
+    h1 {
+      font-size: 25px;
+      margin-top: 25px;
+    }
+
+    .card {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .section-contact {
+
+    h1 {
+      padding-top: 20px;
+      font-size: 22px;
+    }
+
+    .text-info-contact {
+      font-size: 15px;
+
+      span {
+        line-height: 30px;
+      }
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+    }
+  }
+}
+
+// Mobile Small Version
+@media (max-width: 575.98px) {
+  .jumbotron-fluid {
+    h1 {
+      margin-top: 140px;
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .btn-primary {
+      padding: 8px;
+    }
+
+    .btn-secondary {
+      padding: 8px;
+    }
+  }
+
+  .section-content-profile {
+    padding: 20px;
+
+    .img-fluid {
+      height: 300px;
+      width: 250px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .section-skill {
+    padding: 30px;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .section-portfolio {
+    h1 {
+      padding: 10px;
+    }
+  }
+
+  .section-contact {
+    padding: 20px;
+  }
+}
+
+//  Mobile Extra Small Version
+@media (max-width: 382px) {
+  .jumbotron-fluid {
+    height: 520px;
+
+    h1 {
+      font-size: 22px;
+    }
+  }
+
+  .section-content-profile {
+    padding-top: 45px;
+
+    .img-fluid {
+      height: 300px;
+      width: 250px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .section-skill {
+    padding: 30px;
+  }
+
+}
