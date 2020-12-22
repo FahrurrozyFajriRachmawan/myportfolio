@@ -279,9 +279,6 @@ body {
     height: 325px;
     width: 250px;
   }
-  .section-content-profile h1 {
-    padding-top: 0;
-  }
   .section-content-profile p {
     padding: 10px;
     font-size: 14px;
@@ -319,6 +316,12 @@ body {
   }
 }
 
+@media (max-width: 767.98px) {
+  .section-content-profile h1 {
+    padding: 0;
+  }
+}
+
 @media (max-width: 575.98px) {
   .jumbotron-fluid h1 {
     margin-top: 140px;
@@ -339,6 +342,9 @@ body {
   .section-content-profile .img-fluid {
     height: 300px;
     width: 250px;
+  }
+  .section-content-profile h1 {
+    padding: 0;
   }
   .section-content-profile p {
     font-size: 14px;
