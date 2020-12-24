@@ -264,11 +264,7 @@ body {
   .navbar:hover .navbar-brand {
     color: #fff !important;
   }
-  .jumbotron-fluid {
-    height: 520px;
-  }
   .jumbotron-fluid h1 {
-    margin-top: 135px;
     font-size: 40px;
   }
   .section-content-profile {
@@ -324,7 +320,6 @@ body {
 
 @media (max-width: 575.98px) {
   .jumbotron-fluid h1 {
-    margin-top: 140px;
     font-size: 30px;
   }
   .jumbotron-fluid p {
@@ -364,9 +359,6 @@ body {
 }
 
 @media (max-width: 382px) {
-  .jumbotron-fluid {
-    height: 520px;
-  }
   .jumbotron-fluid h1 {
     font-size: 22px;
   }
