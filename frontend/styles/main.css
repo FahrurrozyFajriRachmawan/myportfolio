@@ -52,7 +52,7 @@ body {
   padding: 30px;
   background-color: #070707;
   color: #000;
-  height: 635px;
+  height: 100vh;
 }
 
 .jumbotron-fluid h1 {
@@ -194,8 +194,12 @@ body {
           box-shadow: 1px 1px 4px;
 }
 
+.section-portfolio img {
+  height: 15vh;
+}
+
 .section-portfolio .card-body p {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .section-portfolio .btn-portfolio {
