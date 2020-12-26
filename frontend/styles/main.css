@@ -91,6 +91,16 @@ body {
   transition: 0.5s ease;
 }
 
+.jumbotron-fluid .icon-social-media i {
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.jumbotron-fluid .icon-social-media i:hover {
+  color: #ccc;
+}
+
 .section-content-profile {
   margin-top: -50px;
   padding: 70px;
@@ -237,14 +247,6 @@ body {
   font-size: 16px;
   color: #000;
   font-weight: 250;
-}
-
-.section-contact .icon-social-media i {
-  font-size: 30px;
-}
-
-.section-contact .icon-social-media i:hover {
-  color: #ccc;
 }
 
 .section-contact iframe {

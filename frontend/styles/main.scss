@@ -88,6 +88,19 @@ body {
       transition: 0.5s ease;
     }
   }
+
+  .icon-social-media {
+    i {
+      color: #fff;
+      font-size: 20px;
+      opacity: 0.7;
+
+
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
 }
 
 .section-content-profile {
@@ -237,15 +250,7 @@ body {
     font-weight: 250;
   }
 
-  .icon-social-media {
-    i {
-      font-size: 30px;
 
-      &:hover {
-        color: #ccc;
-      }
-    }
-  }
 
   iframe {
     border-radius: 10px;
