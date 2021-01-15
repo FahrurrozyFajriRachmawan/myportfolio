@@ -229,6 +229,10 @@ body {
   color: #000;
 }
 
+.section-portfolio .img-ui-designer img {
+  height: 40vh;
+}
+
 .section-contact {
   color: #000;
 }
